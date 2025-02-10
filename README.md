@@ -75,6 +75,8 @@ Sui Trivia encourages users to interact with AI agents after learning, allowing 
 
 Notably, Sui Trivia’s question management interface is built on Google Sheets, enabling the flexible creation of various protocols and questions related to the Sui ecosystem. [[link to google sheet]](https://docs.google.com/spreadsheets/d/18HN0o7sS5zQVAY_NPpSMXVi76z_PZNlfniy5eQQG-ZQ/edit?gid=829601164#gid=829601164)
 
+[[link to example post]](https://x.com/SuiTrivia/status/1889031578900435443)
+
 <img width="783" alt="image" src="https://github.com/user-attachments/assets/2b293712-daf6-4f7f-914e-fd5d97215347" />
 
 
