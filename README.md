@@ -79,6 +79,7 @@ Notably, Sui Trivia’s question management interface is built on Google Sheets,
 
 <img width="783" alt="image" src="https://github.com/user-attachments/assets/2b293712-daf6-4f7f-914e-fd5d97215347" />
 
+Finally, Sui Trivia will write a write up and congrats the winner. [[example writeup post]](https://x.com/SuiTrivia/status/1889030647383261524)
 
 ## Contact Us
 
