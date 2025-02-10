@@ -57,9 +57,11 @@ AIdeniyi is a great companion who loves sharing insights about Sui on Twitter. H
 - With Sui Tipper, you can give anyone on 𝕏 coins from Sui. Sui Tipper currently supports Sui but will be expanded to other coins soon.
 - The Sui Tipper plugin can be integrated into other AI Agents.
 
-[[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts)
+[[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts) [[example post]](https://x.com/SuiTipper/status/1889035167811125474)
 
-<img width="496" alt="image" src="https://github.com/user-attachments/assets/24bb8758-738d-4786-9b8a-6fd7224cd024" />
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/7716a337-277f-4c82-b482-444070c60540" />
+
+
 
 ## Sui Trivia
 
