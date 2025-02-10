@@ -2,16 +2,15 @@
 
 # SuiMate Universe AI Agents:<br>AIdeniyi + SuiTrivia + SuiTipper
 
-> To judge, we only open source part of the code. For full source code access, please contact eason.tw.chen@gmail.com.
 
 SuiMate's vision is to become a trusted companion for every Web3 beginner, guiding them through the world of Web3 while educating them on Web3, DeFi, and blockchain concepts. To achieve this, we are developing a series of AI agents designed to engage and interact with users. The current three agents are just the beginning.
 
 
 We originally planned to integrate all features with ElizaOS to [AIdeniyi AI Agent](https://x.com/aideniyi) but found that this would cause the agent to hit the rate limit easily. Therefore, we created three agents separately by ElizaOS as follows:
 
-- **[AIdeniyi](https://x.com/Aideniyi)**: A virtual version of MystenLabs' co-founder Adeniyi that responds to users' questions about the Sui ecosystem and occasionally gives away rewards to those who interact with him.
-- **[SuiTrivia](https://x.com/SuiTrivia)**: An AI agent that asks questions about the Sui ecosystem, challenging users to respond. Those who answer will have a chance to win rewards.  
-- **[SuiTipper](https://x.com/SuiTipper)**: An infrastructure AI agent that handles the financial transactions for the above two agents, managing Sui wallets for X users and AI agents by GiftDrop xWallet.
+- **[AIdeniyi](https://x.com/Aideniyi)**: A virtual version of MystenLabs' co-founder Adeniyi that responds to users' questions about the Sui ecosystem and occasionally gives away rewards to those who interact with him. [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/tree/aideniyi)
+- **[SuiTrivia](https://x.com/SuiTrivia)**: An AI agent that asks questions about the Sui ecosystem, challenging users to respond. Those who answer will have a chance to win rewards.  [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTrivia/src/plugin/aideniyi/TweetPostClient.ts)
+- **[SuiTipper](https://x.com/SuiTipper)**: An infrastructure AI agent that handles the financial transactions for the above two agents, managing Sui wallets for X users and AI agents by GiftDrop xWallet. [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts)
 
 Additionally, we have developed various infrastructure components related to AI agents, including:  
 - [A documentation scraper and database for the Sui ecosystem](https://github.com/SuiMate-AI/docs_scraper), which updates daily by collecting thousands of relevant data points from Sui Ecosystem projects, such as Bucket Protocol, Suilend, Bluefin, NAVI, Cetus, Scallop, .etc. This enables AI Agents to perform Retrieval-Augmented Generation (RAG) to generate high-quality content. We plan to open access to this via an API.
@@ -44,7 +43,7 @@ We use GiftDrop, a giveaway protocol on Sui, to manage these assets. GiftDrop pr
 ## AIdeniyi
 
 
-AIdeniyi is a great companion who loves sharing insights about Sui on Twitter. He operates 24/7, and if you ask him a Sui-related question, you'll receive a well-informed article in just two minutes. If you manage to impress him, he might even tip you some money using SuiTipper. We've integrated AIdeniyi with the previously mentioned Sui Ecosystem database, ensuring he stays up to date.
+AIdeniyi is a great companion who loves sharing insights about Sui on Twitter. He operates 24/7, and if you ask him a Sui-related question, you'll receive a well-informed article in just two minutes. If you manage to impress him, he might even tip you some money using SuiTipper. We've integrated AIdeniyi with the previously mentioned Sui Ecosystem database, ensuring he stays up to date. [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/tree/aideniyi)
 
 [[Link to AIdeniyi example posts](https://x.com/AIdeniyi/status/1888952767605260503)]
 
@@ -56,6 +55,8 @@ AIdeniyi is a great companion who loves sharing insights about Sui on Twitter. H
 - With Sui Tipper, you can give anyone on 𝕏 coins from Sui. Sui Tipper currently supports Sui but will be expanded to other coins soon.
 - The Sui Tipper plugin can be integrated into other AI Agents.
 
+[[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts)
+
 <img width="496" alt="image" src="https://github.com/user-attachments/assets/24bb8758-738d-4786-9b8a-6fd7224cd024" />
 
 ## Sui Trivia
@@ -66,9 +67,9 @@ AIdeniyi is a great companion who loves sharing insights about Sui on Twitter. H
 
 Educational research suggests that the best learning experience isn’t passive reading and absorbing knowledge but actively engaging in knowledge construction. As highlighted in Bloom’s Taxonomy, mere memorization doesn’t lead to deep learning or practical application.  
 
-Sui Trivia encourages users to interact with AI agents after learning, allowing them to reinforce their knowledge through engagement. The AI agents provide feedback, helping users retain information more effectively. Furthermore, when users answer correctly, Sui Trivia rewards them with Sui or other coins via Sui Tipper as an incentive.  
+Sui Trivia encourages users to interact with AI agents after learning, allowing them to reinforce their knowledge through engagement. The AI agents provide feedback, helping users retain information more effectively. Furthermore, when users answer correctly, Sui Trivia rewards them with Sui or other coins via Sui Tipper as an incentive.  [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts)
 
-Notably, Sui Trivia’s question management interface is built on Google Sheets, enabling the flexible creation of various protocols and questions related to the Sui ecosystem.
+Notably, Sui Trivia’s question management interface is built on Google Sheets, enabling the flexible creation of various protocols and questions related to the Sui ecosystem. [[link to google sheet]](https://docs.google.com/spreadsheets/d/18HN0o7sS5zQVAY_NPpSMXVi76z_PZNlfniy5eQQG-ZQ/edit?gid=829601164#gid=829601164)
 
 <img width="783" alt="image" src="https://github.com/user-attachments/assets/2b293712-daf6-4f7f-914e-fd5d97215347" />
 
