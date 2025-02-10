@@ -26,14 +26,24 @@ We will explain each of the infra and agents in detail in the following sections
 
 3. [By splitting the content into smaller fragments before generating embeddings, we index a single document as multiple vectors, improving search effectiveness.](https://github.com/SuiMate-AI/docs_scraper/blob/main/1.3_embedding_paragraph.py)  
 
-4. [Finally, we upload the embeddings to the Qdrant database.](https://github.com/SuiMate-AI/docs_scraper/blob/main/1.5_upload.py)  
+4. [Finally, we upload the embeddings to the Qdrant database.](https://github.com/SuiMate-AI/docs_scraper/blob/main/1.5_upload.py)
+
+Then, by integrating AIdeniyi's reasoning engine powered by Deepseek and LLAMA from Atoma, we further enhance the effectiveness of this search database. Basically, after the user query, the AIdeniyi reasoning engine will first use LLAMA to elaborate on what knowledge point might be related, then use the knowledge point to form embedding to perform a vector search for the database. Finally, the data will be used as the knowledge base to generate replies by Deepseek. All are using Atoma's cloud framework.
 
 ### GiftDrop xWallet
 
 <img width="1474" alt="image" src="https://github.com/user-attachments/assets/b2d3ee06-e28c-4c80-a729-4c9ff9535b10" />
 
 
-We use GiftDrop, a giveaway protocol on Sui, to manage these assets. GiftDrop provides a user-friendly interface for easy management, as shown in the link above: [[xWallet Link](https://giftdrop.io/xwallet)].
+We use GiftDrop, a giveaway protocol on Sui, to manage these assets. GiftDrop provides a user-friendly interface for easy management, as shown in the link above: [[xWallet Link](https://giftdrop.io/xwallet)]. AI Agent developers only need to prepare an API Key to connect with GiftDrop's xWallet service, enabling users to manage their assets and interactions with the Agent through the GiftDrop interface.
+
+
+
+
+
+
+
+
 
 
 
