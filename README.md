@@ -1,3 +1,3 @@
-# SuiMate Ecosystem: AIdeniyi + SuiTipper AI Agents
+# AIdeniyi + SuiTipper: SuiMate Universe AI Agents
 
 TBA
