@@ -1,4 +1,8 @@
+![suimate](https://github.com/user-attachments/assets/f92987af-4330-436f-ae5c-710a894ce5c0)
+
 # SuiMate Universe AI Agents:<br>AIdeniyi + SuiTrivia + SuiTipper
+
+> To judge, we only open source part of the code. For full source code access, please contact eason.tw.chen@gmail.com.
 
 SuiMate's vision is to become a trusted companion for every Web3 beginner, guiding them through the world of Web3 while educating them on Web3, DeFi, and blockchain concepts. To achieve this, we are developing a series of AI agents designed to engage and interact with users. The current three agents are just the beginning.
 
