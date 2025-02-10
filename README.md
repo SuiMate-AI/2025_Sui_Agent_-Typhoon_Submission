@@ -1,1 +1,3 @@
-# 2025_Sui_Agent_-Typhoon_Submission
+# SuiMate Ecosystem: AIdeniyi + SuiTipper AI Agents
+
+TBA
