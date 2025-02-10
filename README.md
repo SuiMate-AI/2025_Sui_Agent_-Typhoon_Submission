@@ -73,3 +73,6 @@ Notably, Sui Trivia’s question management interface is built on Google Sheets,
 <img width="783" alt="image" src="https://github.com/user-attachments/assets/2b293712-daf6-4f7f-914e-fd5d97215347" />
 
 
+## Contact Us
+
+We are a team from Bucket Protocol and CMU Blockchain Club. To contact us, please reach out to us at EasonC13@cmu.edu, yukaih2@andrew.cmu.edu, damien@bucketprotocol.io, and justa@bucketprotocol.io
