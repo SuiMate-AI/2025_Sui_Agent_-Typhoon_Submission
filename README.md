@@ -4,6 +4,8 @@
 # SuiMate Universe AI Agents:<br>AIdeniyi + SuiTrivia + SuiTipper
 
 
+
+
 SuiMate's vision is to become a trusted companion for every Web3 beginner, guiding them through the world of Web3 while educating them on Web3, DeFi, and blockchain concepts. To achieve this, we are developing a series of AI agents designed to engage and interact with users. The current three agents are just the beginning.
 
 
@@ -13,13 +15,14 @@ We originally planned to integrate all features with ElizaOS to [AIdeniyi AI Age
 - **[SuiTrivia](https://x.com/SuiTrivia)**: An AI agent that asks questions about the Sui ecosystem, challenging users to respond. Those who answer will have a chance to win rewards.  [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTrivia/src/plugin/aideniyi/TweetPostClient.ts)
 - **[SuiTipper](https://x.com/SuiTipper)**: An infrastructure AI agent that handles the financial transactions for the above two agents, managing Sui wallets for X users and AI agents by GiftDrop xWallet. [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts)
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/488897b2-cb9b-4c29-a917-bc297c776ebf" />
+
 Additionally, we have developed various infrastructure components related to AI agents, including:  
 - [A documentation scraper and database for the Sui ecosystem](https://github.com/SuiMate-AI/docs_scraper), which updates daily by collecting thousands of relevant data points from Sui Ecosystem projects, such as Bucket Protocol, Suilend, Bluefin, NAVI, Cetus, Scallop, .etc. This enables AI Agents to perform Retrieval-Augmented Generation (RAG) to generate high-quality content. We plan to open access to this via an API. [[code]](https://github.com/SuiMate-AI/docs_scraper)
 - [GiftDrop xWallet](https://giftdrop.io/xwallet): A easy-to-connect third party custody wallet solution for X AI agents and users. [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts#L518-L530)
 
 We will explain each of the infra and agents in detail in the following sections:
 
-![pic/SuiMate_Agents_Architecture.jpg](pic/SuiMate_Agents_Architecture.jpg)
 
 ## Infrastructure:
 ### Sui Ecosystem Documentation Database
