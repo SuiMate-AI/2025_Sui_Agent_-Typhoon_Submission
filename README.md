@@ -47,7 +47,7 @@ We use GiftDrop, a giveaway protocol on Sui, to manage these assets. GiftDrop pr
 
 AIdeniyi is a great companion who loves sharing insights about Sui on Twitter. He operates 24/7, and if you ask him a Sui-related question, you'll receive a well-informed article in just two minutes. If you manage to impress him, he might even tip you some money using SuiTipper. We've integrated AIdeniyi with the previously mentioned Sui Ecosystem database, ensuring he stays up to date. [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/tree/aideniyi)
 
-[[Link to AIdeniyi example posts](https://x.com/AIdeniyi/status/1888952767605260503)]
+[[Link to AIdeniyi example posts]](https://x.com/AIdeniyi/status/1888952767605260503)
 
 <img width="481" alt="image" src="https://github.com/user-attachments/assets/61840e0d-88b3-4c9c-9c6d-a6c796bbecb4" />
 
