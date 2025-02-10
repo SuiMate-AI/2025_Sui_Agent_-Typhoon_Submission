@@ -40,6 +40,7 @@ We use GiftDrop, a giveaway protocol on Sui, to manage these assets. GiftDrop pr
 
 <img width="1474" alt="image" src="https://github.com/user-attachments/assets/b2d3ee06-e28c-4c80-a729-4c9ff9535b10" />
 
+# AI Agents
 
 ## AIdeniyi
 
