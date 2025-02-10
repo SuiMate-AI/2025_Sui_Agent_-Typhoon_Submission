@@ -15,7 +15,7 @@ We originally planned to integrate all features with ElizaOS to [AIdeniyi AI Age
 
 Additionally, we have developed various infrastructure components related to AI agents, including:  
 - [A documentation scraper and database for the Sui ecosystem](https://github.com/SuiMate-AI/docs_scraper), which updates daily by collecting thousands of relevant data points from Sui Ecosystem projects, such as Bucket Protocol, Suilend, Bluefin, NAVI, Cetus, Scallop, .etc. This enables AI Agents to perform Retrieval-Augmented Generation (RAG) to generate high-quality content. We plan to open access to this via an API. [[code]](https://github.com/SuiMate-AI/docs_scraper)
-- [GiftDrop xWallet](https://giftdrop.io/xwallet): A easy-to-connect third party custody wallet solution for X AI agents and users.
+- [GiftDrop xWallet](https://giftdrop.io/xwallet): A easy-to-connect third party custody wallet solution for X AI agents and users. [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts#L518-L530)
 
 We will explain each of the infra and agents in detail in the following sections:
 
