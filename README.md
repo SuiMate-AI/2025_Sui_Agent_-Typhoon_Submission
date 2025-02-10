@@ -19,6 +19,7 @@ Additionally, we have developed various infrastructure components related to AI 
 
 We will explain each of the infra and agents in detail in the following sections:
 
+![pic/SuiMate_Agents_Architecture.png](pic/SuiMate_Agents_Architecture.png)
 
 ## Infrastructure:
 ### Sui Ecosystem Documentation Database
