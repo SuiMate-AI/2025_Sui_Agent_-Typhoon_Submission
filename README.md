@@ -3,7 +3,7 @@
 SuiMate's vision is to become a trusted companion for every Web3 beginner, guiding them through the world of Web3 while educating them on Web3, DeFi, and blockchain concepts. To achieve this, we are developing a series of AI agents designed to engage and interact with users. The current three agents are just the beginning.
 
 
-We originally planned to integrate all features to [AIdeniyi](https://x.com/aideniyi) but found that this would cause the agent to hit the rate limit easily. Therefore, we created three agents separately as follows:
+We originally planned to integrate all features with ElizaOS to [AIdeniyi AI Agent](https://x.com/aideniyi) but found that this would cause the agent to hit the rate limit easily. Therefore, we created three agents separately by ElizaOS as follows:
 
 - **[AIdeniyi](https://x.com/Aideniyi)**: A virtual version of MystenLabs' co-founder Adeniyi that responds to users' questions about the Sui ecosystem and occasionally gives away rewards to those who interact with him.
 - **[SuiTrivia](https://x.com/SuiTrivia)**: An AI agent that asks questions about the Sui ecosystem, challenging users to respond. Those who answer will have a chance to win rewards.  
@@ -32,32 +32,39 @@ Then, by integrating AIdeniyi's reasoning engine powered by Deepseek and LLAMA f
 
 ### GiftDrop xWallet
 
-<img width="1474" alt="image" src="https://github.com/user-attachments/assets/b2d3ee06-e28c-4c80-a729-4c9ff9535b10" />
-
-
 We use GiftDrop, a giveaway protocol on Sui, to manage these assets. GiftDrop provides a user-friendly interface for easy management, as shown in the link above: [[xWallet Link](https://giftdrop.io/xwallet)]. AI Agent developers only need to prepare an API Key to connect with GiftDrop's xWallet service, enabling users to manage their assets and interactions with the Agent through the GiftDrop interface.
 
-
-
-
-
-
-
-
-
-
+<img width="1474" alt="image" src="https://github.com/user-attachments/assets/b2d3ee06-e28c-4c80-a729-4c9ff9535b10" />
 
 
 ## AIdeniyi
 
 
+AIdeniyi is a great companion who loves sharing insights about Sui on Twitter. He operates 24/7, and if you ask him a Sui-related question, you'll receive a well-informed article in just two minutes. If you manage to impress him, he might even tip you some money using SuiTipper. We've integrated AIdeniyi with the previously mentioned Sui Ecosystem database, ensuring he stays up to date.
+
+[[Link to AIdeniyi example posts](https://x.com/AIdeniyi/status/1888952767605260503)]
+
+<img width="481" alt="image" src="https://github.com/user-attachments/assets/61840e0d-88b3-4c9c-9c6d-a6c796bbecb4" />
 
 ## Sui Tipper
 
-<img width="696" alt="image" src="https://github.com/user-attachments/assets/24bb8758-738d-4786-9b8a-6fd7224cd024" />
+- Tag and give; no need to comment or DM address anymore. Sui Tipper is a great tool for KOL to do giveaways.
+- With Sui Tipper, you can give anyone on 𝕏 coins from Sui. Sui Tipper currently supports Sui but will be expanded to other coins soon.
+- The Sui Tipper plugin can be integrated into other AI Agents.
 
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/24bb8758-738d-4786-9b8a-6fd7224cd024" />
 
 ## Sui Trivia
+
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/47331802-c487-4a44-8afc-71a8c0215c15" />
+
+
+
+Educational research suggests that the best learning experience isn’t passive reading and absorbing knowledge but actively engaging in knowledge construction. As highlighted in Bloom’s Taxonomy, mere memorization doesn’t lead to deep learning or practical application.  
+
+Sui Trivia encourages users to interact with AI agents after learning, allowing them to reinforce their knowledge through engagement. The AI agents provide feedback, helping users retain information more effectively. Furthermore, when users answer correctly, Sui Trivia rewards them with Sui or other coins via Sui Tipper as an incentive.  
+
+Notably, Sui Trivia’s question management interface is built on Google Sheets, enabling the flexible creation of various protocols and questions related to the Sui ecosystem.
 
 <img width="783" alt="image" src="https://github.com/user-attachments/assets/2b293712-daf6-4f7f-914e-fd5d97215347" />
 
