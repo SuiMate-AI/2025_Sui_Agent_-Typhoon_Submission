@@ -71,7 +71,7 @@ AIdeniyi is a great companion who loves sharing insights about Sui on Twitter. H
 
 Educational research suggests that the best learning experience isn’t passive reading and absorbing knowledge but actively engaging in knowledge construction. As highlighted in Bloom’s Taxonomy, mere memorization doesn’t lead to deep learning or practical application.  
 
-Sui Trivia encourages users to interact with AI agents after learning, allowing them to reinforce their knowledge through engagement. The AI agents provide feedback, helping users retain information more effectively. Furthermore, when users answer correctly, Sui Trivia rewards them with Sui or other coins via Sui Tipper as an incentive.  [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts)
+Sui Trivia encourages users to interact with AI agents after learning, allowing them to reinforce their knowledge through apply and engagement. The AI agents provide feedback, helping users retain information more effectively. Furthermore, when users answer correctly, Sui Trivia rewards them with Sui or other coins via Sui Tipper as an incentive.  [[code]](https://github.com/SuiMate-AI/eliza_aideniyi/blob/SuiTipper/src/clients/twitter/interactions.ts)
 
 Notably, Sui Trivia’s question management interface is built on Google Sheets, enabling the flexible creation of various protocols and questions related to the Sui ecosystem. [[link to google sheet]](https://docs.google.com/spreadsheets/d/18HN0o7sS5zQVAY_NPpSMXVi76z_PZNlfniy5eQQG-ZQ/edit?gid=829601164#gid=829601164)
 
