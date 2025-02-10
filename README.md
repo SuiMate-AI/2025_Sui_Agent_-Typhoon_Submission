@@ -21,7 +21,7 @@ We will explain each of the infra and agents in detail in the following sections
 
 
 ## Infrastructure:
-### Sui Ecosystem Database
+### Sui Ecosystem Documentation Database
 
 1. [Our script uses a snowballing method to scrape a large number of documents from the Sui Ecosystem.](https://github.com/SuiMate-AI/docs_scraper/blob/main/1.1_scrape_all.py)  
 
