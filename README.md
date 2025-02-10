@@ -1,4 +1,5 @@
-![suimate](https://github.com/user-attachments/assets/f92987af-4330-436f-ae5c-710a894ce5c0)
+<img width="1911" alt="image" src="https://github.com/user-attachments/assets/94286b76-49ac-4eac-bddf-2bf12602a077" />
+
 
 # SuiMate Universe AI Agents:<br>AIdeniyi + SuiTrivia + SuiTipper
 
