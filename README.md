@@ -3,7 +3,7 @@
 
 # SuiMate Universe AI Agents:<br>AIdeniyi + SuiTrivia + SuiTipper
 
-
+### [[Link to Demo Video]](https://www.youtube.com/watch?v=_ySI3IAVt5I&feature=youtu.be)
 
 
 SuiMate's vision is to become a trusted companion for every Web3 beginner, guiding them through the world of Web3 while educating them on Web3, DeFi, and blockchain concepts. To achieve this, we are developing a series of AI agents designed to engage and interact with users. The current three agents are just the beginning.
